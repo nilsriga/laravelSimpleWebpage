@@ -24,6 +24,13 @@ Route::get('/clicker', 'ViewController@clicker');
 Route::get('/calculator', 'ViewController@calculator');
 Route::get('/userData', 'ViewController@userData')  ;
 
+Route::get('/moviesearcher', function () {
+    return response()->download(public_path('downloadsForPortfolio/'.'movie_searcher.7z'));
+});
+
+Route::get('/tictactoe', function () {
+    return view('downloadsForPortfolio/desas.7z');
+});
 
 // Route::post('/create', 'MessageController@create');
 
