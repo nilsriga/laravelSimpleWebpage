@@ -29,7 +29,7 @@ Route::get('/moviesearcher', function () {
 });
 
 Route::get('/tictactoe', function () {
-    return view('downloadsForPortfolio/desas.7z');
+    return response()->download(public_path('downloadsForPortfolio/'.'desas.7z'));
 });
 
 // Route::post('/create', 'MessageController@create');
