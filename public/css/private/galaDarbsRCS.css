@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(255, 252, 249);
+}
+
+.animated-container {
+    animation: showUp 0.5s cubic-bezier(0.18, 1.3, 1, 1) forwards;
+}
+
+@keyframes showUp {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transoform: scale(1);
+    }
+}
+
+div.divider {
+    height: 2px;
+}
+
+/* homepage */
+
+#home-articles-title {
+    text-align: left;
+}
+
+.card.small {
+    height: 200px !important;
+    width: auto
+}
+
+/* start of Materialize slider */
+
+#prev,
+#next {
+    float: left;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+#prev {
+    position: relative;
+    /* margin-right: -40px; */
+    z-index: 3;
+}
+
+#next {
+    position: relative;
+    /* margin-left: 750px; */
+    z-index: 3;
+    float:right;
+}
+
+/* end of Materialize slider */
+
+/* the following is for jQuerry slider */
+
+.slider-container {
+    width: 401px;
+    margin: auto;
+    overflow: auto;
+}
+
+.slider-inner {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.slider-inner img {
+    display: none;
+    width: 400px;
+    height: 400px;
+}
+
+.slider-inner img.active-img {
+    display: inline-block;
+}
+
+.prev,
+.next {
+    float: left;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.prev {
+    position: relative;
+    margin-right: -40px;
+    z-index: 3;
+}
+
+.next {
+    position: relative;
+    margin-left: -40px;
+    z-index: 3;
+}
+
+/* end of jQuery slider  */
+
+/* end of homepage */
+
+
+/* chat */
+
+.chat-window {
+    min-height: 500px;
+    min-width: auto;
+}
+
+.messages {
+    border-radius:2px;
+    margin-left: 10px;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(59,59,59,1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(59,59,59,1);
+    box-shadow: inset 0px 0px 10px 0px rgba(59,59,59,1);
+    padding: 10px;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+.chat-container {
+    background: white;
+    padding: 20px 25px;
+    border: 5px solid #e57373;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* end of chat */
+
+
+/* register*/
+
+.register-container {
+    background: white;
+    padding: 20px 25px;
+    border: 5px solid #f44336;
+    width: 550px;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.col.s6>.btn {
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.ngl {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+/* end of register */
+
+/* clicker */
+
+#clicker-box {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* end of clicker */
+
+
+
+/* start of articles page */
+
+.gallery-image {
+    max-width: 100%;
+}
+
+.small-gallery-image {
+    width: 100%;
+    max-width: 100%;
+    height: inherit;
+}
+
+/* end of articles page */
+
+
+/* start of about us*/
+
+.tab-image>img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* end of about us */
+
+
+/* Start of pagination */
+.pagination {
+    margin-right: 10px;
+}
+
+/* end of pagination */
