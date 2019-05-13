@@ -1,6 +1,6 @@
 @extends('masterRCS')
 
-@section('title', 'RCS Mājaslapa')
+@section('title', 'Simple Webpage')
 
 @section('content')
 
