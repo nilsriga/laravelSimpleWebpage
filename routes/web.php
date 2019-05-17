@@ -32,6 +32,10 @@ Route::get('/tictactoe', function () {
     return response()->download(public_path('downloadsForPortfolio/'.'desas.7z'));
 });
 
+Route::get('/tv', function () {
+    return response()->download(public_path('downloadsForPortfolio/'.'tv.zip'));
+});
+
 // Route::post('/create', 'MessageController@create');
 
 // Route::get('/', function() {
